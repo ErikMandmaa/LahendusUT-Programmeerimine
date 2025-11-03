@@ -1,0 +1,11 @@
+i = 0
+while i < 5:
+   i = i + 2
+   print(i)
+piir = int(input("Mitu tulemust kuvada?"))
+tulemus = 1
+järk = 0
+while järk < piir:
+    print(str(järk) + ". rida on " + str(tulemus))
+    tulemus = tulemus * 3
+    järk = järk + 1
