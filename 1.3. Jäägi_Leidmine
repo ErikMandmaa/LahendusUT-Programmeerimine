@@ -1,0 +1,4 @@
+jagataja = int(input("Sisestage jagatav (täisarv): "))
+jagaja = int(input("Sisestage jagaja (täisarv): "))
+jääk = jagataja % jagaja
+print(f"Jääk on: {jääk}")

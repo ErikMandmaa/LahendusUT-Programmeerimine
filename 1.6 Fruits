@@ -1,0 +1,6 @@
+fruits = ["õun", "banaan", "kirss", "apelsin"]
+for x in fruits:
+  if x == "banaan":
+    break
+  print(x)
+
